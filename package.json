@@ -4,8 +4,8 @@
   "description": "Simple and easy-to-use log messages.",
   "main": "quicklogs.js",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Kiddo9000/quicklogs"
+    "type": "git",
+    "url": "https://github.com/Kiddo9000/quicklogs"
   },
   "scripts": {
     "test": "node testing.js"
