@@ -1,6 +1,6 @@
 {
   "name": "@crapintosh/quicklogs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple and easy-to-use log messages.",
   "main": "quicklogs.js",
   "repository": {
@@ -18,7 +18,7 @@
   ],
   "author": "Liam Hogan",
   "license": "ISC",
-  "homepage": "https://kiddo9000.github.io/quicklogs/index.html",
+  "homepage": "https://kiddo9000.github.io/quicklogs/",
   "dependencies": {
     "colors": "^1.4.0"
   }
