@@ -1,0 +1,20 @@
+{
+  "name": "@crapintosh/quicklogs",
+  "version": "1.0.0",
+  "description": "Simple and easy-to-use log messages.",
+  "main": "quicklogs.js",
+  "scripts": {
+    "test": "node testing.js"
+  },
+  "keywords": [
+    "logs",
+    "log",
+    "quicklogs",
+    "nodejs"
+  ],
+  "author": "Liam Hogan",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
+}
