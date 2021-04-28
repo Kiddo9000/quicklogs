@@ -1,6 +1,6 @@
 <!--
-QuickLogs Website
-2020 Liam Hogan
+    QuickLogs Website
+    2020 Liam Hogan
 -->
 
 <!DOCTYPE html>
@@ -12,7 +12,9 @@ QuickLogs Website
 
     <body>
         <div class="header-container">
-            <div class="header-title">QuickLogs</div>
+            <div class="header-logo">
+                <img src="/quicklogs/logo.png" width="270">
+            </div>
             <p>A simple package for basic log messages. That's it.</p>
 
             <div class="codeblock">npm install --save @crapintosh/quicklogs</div>
@@ -23,6 +25,8 @@ QuickLogs Website
         <div class="usage-container">
             <div class="usage-title">Usage</div>
             <div class="codeblock">quicklogs.log('Log message');
+                const quicklogs = require('@crapintosh/quicklogs');
+                
                 quicklogs.debug('Debug message');
                 quicklogs.success('Success message');
                 quicklogs.warning('Warning message');
