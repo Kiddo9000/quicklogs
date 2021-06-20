@@ -55,6 +55,13 @@ a {
     margin-bottom: 10px;
 }
 
+/* Images */
+.header-image {
+    width: 300px;
+    max-width: 400px;
+    height: auto;
+}
+
 /* Footer */
 .footer-links {
     color: #2c333d;

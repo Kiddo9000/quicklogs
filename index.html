@@ -1,44 +1,45 @@
 <!--
-    QuickLogs Website
-    2020 Liam Hogan
+QuickLogs
+2021 Liam Hogan
+https://www.npmjs.com/package/@crapintosh/quicklogs
 -->
 
 <!DOCTYPE html>
 <html>
     <head>
         <title>QuickLogs</title>
-        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
     </head>
 
     <body>
         <div class="header-container">
             <div class="header-logo">
-                <img src="/quicklogs/logo.png" width="270">
+                <img class="header-image" src="./logo.png" />
             </div>
             <p>A simple package for basic log messages. That's it.</p>
 
             <div class="codeblock">npm install --save @crapintosh/quicklogs</div>
         </div>
         
-        <hr class="splitter">
+        <hr class="splitter" />
 
         <div class="usage-container">
             <div class="usage-title">Usage</div>
-            <div class="codeblock">quicklogs.log('Log message');
-                const quicklogs = require('@crapintosh/quicklogs');
-                
-                quicklogs.debug('Debug message');
-                quicklogs.success('Success message');
-                quicklogs.warning('Warning message');
-                quicklogs.error('Error message');
-                quicklogs.fatal('Fatal error message');
+            <div class="codeblock">const QuickLogs = require('@crapintosh/quicklogs');
+                QuickLogs.log('Log message');
+                QuickLogs.debug('Debug message');
+                QuickLogs.success('Success message');
+                QuickLogs.warning('Warning message');
+                QuickLogs.error('Error message');
+                QuickLogs.fatal('Fatal error message');
             </div>
 
             <div class="usage-result-title">Result</div>
             <img src="https://i.imgur.com/rjx6hsa.png" alt="Result" />
         </div>
   
-        <hr class="splitter">
+        <hr class="splitter" />
 
         <div class="footer-container">
             <div class="footer-links">
