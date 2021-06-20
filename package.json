@@ -1,14 +1,14 @@
 {
   "name": "@crapintosh/quicklogs",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Simple and easy-to-use log messages.",
-  "main": "quicklogs.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Kiddo9000/quicklogs"
   },
   "scripts": {
-    "test": "node testing.js"
+    "test": "node example.js"
   },
   "keywords": [
     "logs",
